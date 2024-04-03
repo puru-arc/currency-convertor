@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency convertor </title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><img src="images/person-using-currency-exchange-app.png" alt=""></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+
+
+    </nav>
+
+    <main>
+        <h1>choose a currency to convert</h1>
+        <form action="/action.php" method="post"> 
+            <label for="quantity">Choose a quantity</label>
+            <input type="number" name="quantity" min="1" max="10">
+            <label for="currency">Choose a currency: </label>
+            <select name="currency">
+                <option value="INR">Indian rupee</option>
+                <option value="USD">US dollar</option>
+                <option value="EUR">Euro</option>
+            </select>
+            
+           <button class="btn"type="submit">Click to convert</button>
+        </form>
+
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
+            <table>
+
+            
+              
+                <thead>
+                    <tr>
+                        <th>currency</th>
+                        <th >currency code</th>
+                        <th>value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    
+                </tbody>
+               
+            </table>
+    
+        </div>
+       
+
+    </main>
+
+    <footer>
+
+
+        copyright &copy; all rights reserved.
+
+
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

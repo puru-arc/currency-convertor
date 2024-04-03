@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+background-color: #FFFFFF;
+background-image: linear-gradient(138deg, #FFFFFF 0%, #FF0000 50%, #6284FF 70%, #ffffff 100%); 
+
+   
+}
+
+nav{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  
+    justify-content: space-between;
+ 
+}
+
+.logo {
+
+    font-size: 20px;
+    margin-left:20px ;
+    transition: all;
+    transition-duration: 500ms;
+    cursor: pointer;
+    position: relative;
+
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+   
+    
+    
+    
+   
+    
+
+}
+ .logo:hover{
+    text-decoration: none;
+    color: rgb(247, 247, 248);
+    cursor: pointer;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+nav ul li{
+   list-style: none;
+   margin: 0 23px;
+   
+}
+nav  li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+
+}
+
+nav  li a:hover{
+    text-decoration: none;
+    color: rgb(247, 247, 248);
+    cursor: pointer;
+
+}
+
+
+
+
+main{
+    min-height: 100vh;
+    margin: auto;
+    font-family: poppins;
+  
+    
+    max-width: 80vw;
+   
+}
+
+main h1{
+  margin: 23px 0;
+    font-family: cursive;
+  
+    text-align: center;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form input[type=number],select,label{
+    font-size: 20px;
+    margin-bottom: 20px ;
+    font-family: monospace;
+    font-weight: bold;
+    width: 23vw;
+    
+  
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    width: 144px;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 1rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+   font-family: cursive;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.output{
+}
+
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 11px 23px;
+    margin: auto;
+   
+}
+
+.output h2{
+    font-family: cursive;
+    margin: 20px;
+    text-align: center;
+  
+
+}
